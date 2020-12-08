@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  background-color: #325765;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.sidebar {
+  background-color: #cc171d;
+  width: 75px;
+  height: 721px;
+  text-align: center;
+  float: left;
+  position: fixed;
+}
+.sidebarlogo {
+  width: 65px;
+  margin-top: 10px;
+}
+.block2 {
+  margin: auto;
+  vertical-align: top;
+  padding-top: 5px;
+}
+
+.addblock {
+  vertical-align: top;
+  margin: auto;
+  padding-top: 10px;
+}
+.settings {
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 10px;
+  margin-left: -53px;
+}
+.column {
+  width: 270px;
+  height: 719px;
+  display: block;
+  border: #4d818c solid 1px;
+  margin-left: 75px;
+  white-space: nowrap;
+}
+.columnsearch {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  border: none;
+  border-radius: 20px;
+  height: 30px;
+  width: 215px;
+  margin: auto;
+  font-weight: bold;
+  font-size: 17px;
+  display: block;
+  padding-left: 33px;
+  margin-top: 5px;
+}
+.searchicon {
+  height: 40px;
+  width: 30px;
+  position: relative;
+  border: none;
+  border-radius: 20px;
+  color: #3d82f7;
+  top: -48px;
+  left: 12.45px;
+}
+.sd {
+  font-size: 20px;
+  background-color: white;
+
+  border-radius: 20px;
+  padding: 5px;
+}
+.ticker {
+  background-color: #f6b9c5;
+  width: fit-content;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  position: relative;
+  top: -10px;
+  display: inline-block;
+  left: -28px;
+}
+.companyname {
+  background-color: #db404d;
+  width: fit-content;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
+  display: inline-block;
+  top: -10px;
+  left: -28px;
+  white-space: nowrap;
+  overflow: none;
+}
+.liveprice {
+  background-color: #f79279;
+  width: fit-content;
+  padding: 4px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  position: relative;
+  display: inline-block;
+  top: -47px;
+  left: 8px;
+  white-space: nowrap;
+  overflow: none;
+}
+.livechange {
+  background-color: gray;
+  width: fit-content;
+  padding: 4px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  position: relative;
+  display: inline-block;
+  top: -47px;
+  left: 12px;
+  white-space: nowrap;
+  overflow: none;
+}
+.exchange {
+  background-color: #f6b9ef;
+  width: fit-content;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  position: relative;
+  top: -85.5px;
+  display: inline-block;
+  left: 8px;
+}
+.currency {
+  background-color: #b9f6e6;
+  width: fit-content;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  top: -85.5px;
+  left: 10px;
+  white-space: nowrap;
+  overflow: none;
+}
+.marketstatus {
+  background-color: #ff3300;
+  width: fit-content;
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  top: -85.5px;
+  left: 10px;
+  white-space: nowrap;
+  overflow: none;
+}
+.industry {
+  background-color: #b9f6e6;
+  width: fit-content;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
+  display: inline-block;
+  top: -116px;
+  left: 8px;
+  white-space: nowrap;
+  overflow: none;
+}
+.info {
+  background-color: none;
+  border: 3px solid #162337;
+  width: fit-content;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  top: -115.7px;
+  left: 10px;
+  white-space: nowrap;
+  overflow: none;
+  color: white;
+}
+.chart {
+  background-color: none;
+  border: 3px solid #162337;
+  width: fit-content;
+  padding: 4px;
+  padding-left: 8.5px;
+  padding-right: 8.5px;
+  float: right;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 35px;
+  position: relative;
+  display: inline-block;
+  top: -157px;
+  left: -10px;
+  white-space: nowrap;
+  overflow: none;
+  color: white;
+}
+.contar {
+  color: rgb(73, 149, 73);
+  font-size: 20px;
+  padding: 6px;
+  border-radius: 20px;
+  position: relative;
+  top: -319px;
+  left: 230px;
+}
+.contar:hover {
+  animation: fadeIn ease 0.2s;
+  color: white;
+  background-color: rgb(73, 149, 73);
+  font-size: 20px;
+  padding: 6px;
+  border-radius: 20px;
+  position: relative;
+  top: -319px;
+  left: 230px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
