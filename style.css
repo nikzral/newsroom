@@ -268,3 +268,35 @@ body {
     opacity: 1;
   }
 }
+.accessreq {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 15%;
+}
+.bodyac {
+  background-color: #2a2b2e;
+}
+.nrac {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  width: 26%;
+  margin-left: 36.75%;
+  height: 5vh;
+}
+.accessbutton {
+  background-color: #2a2b2e;
+  border: 1px white solid;
+  width: 10%;
+  height: 5vh;
+  color: white;
+  margin-top: 2.5%;
+  margin-left: 45%;
+  font-weight: regular;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  border-radius: 3px;
+}
+.accessbutton:hover {
+  animation: fadeIn ease 0.2s;
+  background-color: white;
+  color: #2a2b2e;
+}
